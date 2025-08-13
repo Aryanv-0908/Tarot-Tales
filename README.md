@@ -1,12 +1,52 @@
-# React + Vite
+# 🎴 Tarot-Tales  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tarot-Tales** is an interactive web-based Tarot reading app that blends digital storytelling with the mystique of Tarot cards. Designed for both enthusiasts and curious beginners, it offers beautiful, responsive Tarot spreads and instant, detailed card interpretations. This app has been specifically created to cater my client who is professional tarot treader and aims to use this platform to connect to society and grow her business.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+- **Interactive Tarot Spreads** – Includes popular layouts and tarot spread animations. 
+- **Dynamic Card Meanings** – Draw 3 cards to reveal your destiny.  
+- **Sleek & Responsive UI** – Works beautifully on both desktop and mobile.  
+- **Beginner-Friendly** – Learn Tarot meanings while exploring various spreads.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack  
+
+- **Frontend Framework:** React (Vite)  
+- **Styling:** HTML5, CSS3 (custom responsive design)  
+- **Logic & Interactivity:** JavaScript (state-based card handling)
+- **Deployment:** Netlify 
+
+---
+
+## 📦 Installation  
+
+Clone the repository:  
+git clone https://github.com/Aryanv-0908/Tarot-Tales.git
+
+Navigate to the project folder:  
+cd Tarot-Tales
+
+Install dependencies:  
+npm install
+
+Run the development server:  
+npm run dev
+
+---
+
+## 🚀 Usage  
+
+1. Open the app in your browser (URL will appear in your terminal after running `npm run dev`).  
+2. Select a Tarot spread (3-card or 9-card).  
+3. Click on each card for detailed interpretations.  
+4. Click choose again for a new reading.  
+
+---
+
+## 📄 License  
+
+This project is licensed under the **MIT License** – you are free to modify and use it.  
