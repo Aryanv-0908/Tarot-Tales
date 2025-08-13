@@ -40,7 +40,7 @@ const Contact = () => {
         <p>Whether you’re seeking clarity, spiritual guidance, or simply curious about what the universe has in store for you — I’m here to help.</p>
         <p>Feel free to reach out for bookings, queries, collaborations, or just to say hi. Let’s connect and begin your journey of self-discovery.</p>
         <ul>
-          <li><img src={phone_icon} alt="" />Call / WhatsApp: +91-XXXXXXXXXX</li>
+          <li><img src={phone_icon} alt="" />Call / WhatsApp: +91-XXXXXXXX92</li>
           <li><img src={mail_icon} alt="" />Email: tarottalesbynaincy@gmail.com</li>
           <li><img src={location_icon} alt="" />Location: Online sessions available globally</li>
         </ul>
