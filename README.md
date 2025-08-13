@@ -4,6 +4,8 @@
 
 🌐 **Live Demo:** [tarottalesbynaincy.netlify.app](https://tarottalesbynaincy.netlify.app/)  
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d1bd343-b630-49cd-ad4b-48f440183381/deploy-status)](https://app.netlify.com/projects/tarottalesbynaincy/deploys)
+
 ---
 
 ---
