@@ -2,6 +2,10 @@
 
 **Tarot-Tales** is an interactive web-based Tarot reading app that blends digital storytelling with the mystique of Tarot cards. Designed for both enthusiasts and curious beginners, it offers beautiful, responsive Tarot spreads and instant, detailed card interpretations. This app has been specifically created to cater my client who is professional tarot treader and aims to use this platform to connect to society and grow her business.
 
+🌐 **Live Demo:** [tarottalesbynaincy.netlify.app](https://tarottalesbynaincy.netlify.app/)  
+
+---
+
 ---
 
 ## ✨ Features  
