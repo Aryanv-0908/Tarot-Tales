@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+    margin: 10px auto;
+    border-top: 1px solid #797979;
+}
+
+/*Media Queries*/
+@media (max-width: 750px) {
+    .footer{
+        margin: 5px auto;
+    }
+}

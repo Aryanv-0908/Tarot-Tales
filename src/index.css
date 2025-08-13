@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btn {
+  background: black;
+  color: aliceblue;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 2px solid aliceblue;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.btn:hover,
+.btn:focus{
+  background: aliceblue;
+  color: black;
+  outline: none;
+}
+.btn.active{
+  background: aliceblue;
+  color: black;
+  outline: none;
+}
+#aboutSection,
+#myService,
+#myContact{
+  scroll-margin-top: 80px;
+  scroll-padding-top: 80px;
+}
+
+/*Media Query*/
+@media(max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+  
+}

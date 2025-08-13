@@ -1,0 +1,153 @@
+nav {
+    width: 100%;
+    background: black;
+    color: aliceblue;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+
+/* Navbar Links container (for hiding/showing in mobile/desktop) */
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+/* Hamburger Icon styles (hidden by default) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.hamburger span {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    display: block;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -70vw; /* Hidden by default */
+    width: 70vw;
+    max-width: 300px;
+    height: 100%;
+    background: #101113;
+    color: aliceblue;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    padding: 36px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: right 0.3s;
+    z-index: 1002;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .btn {
+    width: 100%;
+    text-align: left;
+    background: black;
+    color: aliceblue;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+/* Overlay for the sidebar */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 15, 20, 0.25);
+    z-index: 1001;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+    .logo {
+        width: 130px;
+    }
+    nav ul li {
+        margin: 10px 15px;
+    }
+}
+
+/* ======= Responsive Sidebar for Mobile ======= */
+@media (max-width: 900px) {
+    .nav-links {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: flex !important;
+    }
+
+    .sidebar {
+        display: flex;
+    }
+}
+
+/* Desktop - Make sure sidebar/hamburger are hidden */
+@media (min-width: 901px) {
+    .sidebar,
+    .sidebar-overlay {
+        display: none !important;
+    }
+    .hamburger {
+        display: none !important;
+    }
+}
+
